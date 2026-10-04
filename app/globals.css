@@ -1,0 +1,5 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{background:#15131F;color:#F3EEE4}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.rise{animation:rise .5s ease both}
+@media (prefers-reduced-motion:reduce){.rise{animation:none}}
